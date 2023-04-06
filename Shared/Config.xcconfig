@@ -13,21 +13,21 @@
 // git update-index --skip-worktree Shared/Config.xcconfig
 // git update-index --no-skip-worktree Shared/Config.xcconfig
 
-APP_BUNDLE_ID[config=Debug] =
-EXT_BUNDLE_ID[config=Debug] =
-APP_GROUP[config=Debug] =
-DEVELOPMENT_TEAM[config=Debug] =
-APP_PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
-EXT_PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
+APP_BUNDLE_ID[config=Debug] = com.microblink.tor-vpn
+EXT_BUNDLE_ID[config=Debug] = com.microblink.tor-vpn.extension
+APP_GROUP[config=Debug] = group.com.microblink.tor-vpn
+DEVELOPMENT_TEAM[config=Debug] = CQTJWP89J7
+APP_PROVISIONING_PROFILE_SPECIFIER[config=Debug] = iCepa TOR VPN App
+EXT_PROVISIONING_PROFILE_SPECIFIER[config=Debug] = iCepa TOR VPN Network Extension
 APP_PROVISIONING_PROFILE_SPECIFIER_MAC[config=Debug] =
 EXT_PROVISIONING_PROFILE_SPECIFIER_MAC[config=Debug] =
 
-APP_BUNDLE_ID[config=Release] = dk.conra.tor
-EXT_BUNDLE_ID[config=Release] = dk.conra.tor.extension
-APP_GROUP[config=Release] = group.dk.conra.tor
-DEVELOPMENT_TEAM[config=Release] =
-APP_PROVISIONING_PROFILE_SPECIFIER[config=Release] =
-EXT_PROVISIONING_PROFILE_SPECIFIER[config=Release] =
+APP_BUNDLE_ID[config=Release] = com.microblink.tor-vpn
+EXT_BUNDLE_ID[config=Release] = com.microblink.tor-vpn.extension
+APP_GROUP[config=Release] = group.com.microblink.tor-vpn
+DEVELOPMENT_TEAM[config=Release] = CQTJWP89J7
+APP_PROVISIONING_PROFILE_SPECIFIER[config=Release] = iCepa TOR VPN App
+EXT_PROVISIONING_PROFILE_SPECIFIER[config=Release] = iCepa TOR VPN Network Extension
 APP_PROVISIONING_PROFILE_SPECIFIER_MAC[config=Release] =
 EXT_PROVISIONING_PROFILE_SPECIFIER_MAC[config=Release] =
 
